@@ -1,0 +1,181 @@
+body {
+    background-color: #86878F;
+    font-family:"Arial","Palatino","Helvetica";
+    color:  #000000;
+    padding: 5px;
+  
+
+}
+
+hr {border: none; border-bottom: 7px solid #FFFFFF;
+      }
+
+ .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b5bade;
+    border-top: 10px solid #998b5c;
+   
+}
+
+.menu li {
+    float: left;
+    
+    
+}
+
+.menu li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+.menu li a:hover:not(.active) {
+    background-color: #f5db84;
+    
+}
+ 
+
+.l {text-align: center;}
+
+.header{background-color: #FFFFFF;
+    width: 100px;
+    border: 20px;
+    border-style:solid;
+    padding: 25px;
+    margin: 25px;
+    border-color:#f5db84;
+}
+
+.wrapper{
+		 margin-left: auto;
+		 margin-right: auto;
+		 background-color: #998b5c;
+         border: 10px solid #800080;
+		 border-radius: 8px;
+   }
+   
+   .main {
+  width:60%;
+  padding:5px;
+  margin:0 auto;
+  padding-left:0px;
+}
+
+
+.reff{
+  width:60%;
+  padding:5px;
+  margin:0 auto;
+  padding-left:0px;
+  padding-left: 22px ;
+  text-indent: -10px ;
+  line-height: 90%;
+  line-height: 123%;
+   
+}
+img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+
+}
+
+
+
+.footer{
+	background-color: #FFFFFF;
+	text-align:center;
+	padding:10px;
+	margin-top:7px;
+	border:5px solid;
+	border-color:#800080;
+	
+}
+
+p {
+    text-indent: 50px;
+}
+
+h2{border:5px solid;
+border-color:#800080;
+text-align:center;
+background-color: #FFFFFF;
+margin-left: auto;
+margin-right: auto;}
+h1{text-align: center}
+
+
+.main1{
+  width:60%;
+  padding: 0 20px;
+  margin-top: 10px;
+  padding-left: 5px;
+  border-style:solid;
+  border-color: #800080;
+  margin:auto;
+  text-align: center;
+  border-radius: 8px;
+  }
+  
+  .server{ display: block;
+    margin: auto;
+    width: 50%;
+    border-style:solid;
+    border-color: skyblue;}
+  
+  
+  @media only screen and (max-width: 700px) {
+
+    .topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+ h1{
+     display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: #A571AC;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+  .home {
+           display: block;
+    background-color: #332E67;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 14px 16px;
+    }
+.topnav a:hover {
+  background-color: #f5db84;
+}
+
+}
+
+ 
+   
+
+
+
